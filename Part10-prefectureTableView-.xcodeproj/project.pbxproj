@@ -98,12 +98,12 @@
 				5F6C195F257E6FB900B12648 /* AppDelegate.swift */,
 				5F6C1961257E6FB900B12648 /* SceneDelegate.swift */,
 				5F6C1963257E6FB900B12648 /* ViewController.swift */,
+				5F6C1992257E70E200B12648 /* TableViewCell.swift */,
+				5F6C1993257E70E200B12648 /* TableViewCell.xib */,
 				5F6C1965257E6FB900B12648 /* Main.storyboard */,
 				5F6C1968257E6FBD00B12648 /* Assets.xcassets */,
 				5F6C196A257E6FBD00B12648 /* LaunchScreen.storyboard */,
 				5F6C196D257E6FBD00B12648 /* Info.plist */,
-				5F6C1992257E70E200B12648 /* TableViewCell.swift */,
-				5F6C1993257E70E200B12648 /* TableViewCell.xib */,
 			);
 			path = "Part10-prefectureTableView-";
 			sourceTree = "<group>";
