@@ -46,3 +46,14 @@ extension ViewController: UITableViewDataSource {
         return cell
     }
 }
+
+
+
+// 改善点
+
+// 複数の画面でこのセルを使い回す場合、subTitleの内容が画面によって変わってくるのであれば
+// subTitleをどうするかは各画面が持つべき知識なので、ViewController側で文字列を整形してセルに渡した方が良い
+// 逆にsubTitleが全画面で共通なアプリなのであれば、subTitleをどうするかはセルが持つべき知識になるので、この場合はセルにはrowだけ渡すことになる
+
+// また、何でもかんでもViewControllerに寄せてしまうと、ViewControllerが全てを知ってしまって肥えてしまう
+// その観点から、基本的に表示のロジックはカスタムセル側に寄せると良い
